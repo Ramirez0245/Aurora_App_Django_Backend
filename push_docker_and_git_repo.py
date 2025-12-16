@@ -28,6 +28,7 @@ def docker_push():
     ]
     loop_actions(PUSH)
 
+
 def loop_actions(command):
     for action in command:
         print("action: ", action)
